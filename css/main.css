@@ -11,3 +11,7 @@ input, textarea, button {
     margin: 5px;
     padding: 5px;
 }
+
+input, textarea {
+    width: 600px;
+}
