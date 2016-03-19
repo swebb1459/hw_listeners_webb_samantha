@@ -21,7 +21,7 @@ html {
 
 .container {
     width: 960px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 h1 {
@@ -38,12 +38,9 @@ h1, h2 {
     float: left;
 }
 
-.clear {
-    clear: both;
-}
-
 main {
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 nav {
