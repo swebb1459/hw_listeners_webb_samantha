@@ -18,3 +18,8 @@ html {
     position: absolute;
     width: 1px;
 }
+
+.container {
+    width: 960px;
+    margin: auto;
+}
