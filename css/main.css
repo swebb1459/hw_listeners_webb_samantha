@@ -10,13 +10,23 @@ input, textarea, button {
     display: block;
     margin: 5px;
     padding: 5px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
 
 input, textarea {
-    width: 600px;
+    width: 400px;
+    background: #f0ffff;
+    border: 1px solid #87cefa;
 }
 
 label {
     display: block;
     margin: 15px 0 0 5px;
+
+}
+
+button:hover {
+    background: #6a5acd;
+    color: #ffffff;
 }
