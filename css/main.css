@@ -15,3 +15,8 @@ input, textarea, button {
 input, textarea {
     width: 600px;
 }
+
+label {
+    display: block;
+    margin: 15px 0 0 5px;
+}
