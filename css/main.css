@@ -68,6 +68,12 @@ a:hover {
     text-decoration: underline;
 }
 
+img {
+    width: 25%;
+    border: 1px solid #2f4f4f;
+    margin: 1px;
+}
+
 article {
     width: 80%;
 }
