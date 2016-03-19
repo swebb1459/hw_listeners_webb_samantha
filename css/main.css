@@ -42,6 +42,14 @@ h1, h2 {
     clear: both;
 }
 
+nav {
+    width: 20%;
+}
+
+article {
+    width: 80%;
+}
+
 footer {
     text-align: center;
     background: #a9a9a9;
