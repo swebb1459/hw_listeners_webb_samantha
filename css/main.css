@@ -15,7 +15,7 @@ form {
     border-radius: 3px;
 }
 
-input, textarea, button {
+input, textarea {
     display: block;
     margin: 5px;
     padding: 5px;
@@ -32,10 +32,20 @@ input, textarea {
 label {
     display: block;
     margin: 15px 0 0 5px;
+}
 
+button {
+    display: block;
+    margin: 10px 0 0 5px;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #ffd700;
+    border: 1px solid #ffd700;
 }
 
 button:hover {
     background: #6a5acd;
+    border: 1px solid #6a5acd;
     color: #ffffff;
 }
