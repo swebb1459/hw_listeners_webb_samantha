@@ -6,6 +6,8 @@ body {
     margin: auto;
 }
 
-input, button {
+input, textarea, button {
     display: block;
+    margin: 5px;
+    padding: 5px;
 }
