@@ -8,7 +8,7 @@ body {
 
 form {
     padding: 20px;
-    border: 1px solid #87cefa;
+    border: 2px solid #87cefa;
     background: #ffffff;
     margin: 20px;
     -webkit-border-radius: 3px;
@@ -32,12 +32,14 @@ input, textarea {
 label {
     display: block;
     margin: 15px 0 0 5px;
+    color: #4b0082;
 }
 
 button {
     display: block;
     margin: 10px 0 0 5px;
     padding: 5px;
+    color: #4b0082;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     background: #ffd700;
