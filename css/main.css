@@ -42,8 +42,30 @@ h1, h2 {
     clear: both;
 }
 
+main {
+    padding: 10px;
+}
+
 nav {
     width: 20%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 article {
