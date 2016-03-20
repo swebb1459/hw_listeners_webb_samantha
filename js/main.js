@@ -17,11 +17,14 @@ function copyImage() {
 //This event listens for a dblclick
 //When clicked it changes the color of the h2
 
-var text = document.getElementsByTagName( 'l1' );
+var texts = document.getElementsByTagName( 'li' );
+var text = texts [ 0 ];
 
 text.addEventListener( 'dblclick', changeText );
 
 function changeText() {
+    var h2Text = document.getElementsByTagName( 'h2' )[ 1 ];
 
-
+    h2Text.innerHTML = 'I changed when you doubled clicked';
+    h2Text.style.color = '#ff00ff';
 }
