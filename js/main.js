@@ -17,5 +17,4 @@ function clicking() {
     } else {
         document.getElementById( 'count' ).innerHTML = ++i;
     }
-
 }
