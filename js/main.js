@@ -37,3 +37,7 @@ var texts = document.getElementsByTagName( 'li' );
 var text = texts [ 1 ];
 
 text.addEventListener( 'mouseover', addText );
+
+function addText() {
+    var
+}
