@@ -13,14 +13,10 @@ function copyImage() {
     document.getElementById( 'images' ).appendChild( copy );
 }
 
-//The purpose is to change color of the text h2 when one of the nav options is double clicked
+//The purpose is to change text of the text h2 when one of the nav options is double clicked
 //This event listens for a dblclick
 //When clicked it changes the color of the h2
 
-var option = document.getElementsByTagName( 'li' );
+var text = document.getElementsByTagName( 'h2' )[ 1 ];
 
-option.addEventListener( 'dblclick', changeColor );
-
-function changeColor() {
-
-}
+text.addEventListener( 'dblclick', changeText );
