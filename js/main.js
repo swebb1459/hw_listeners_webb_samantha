@@ -31,7 +31,7 @@ function changeText() {
 
 //The purpose of the code below is to insert a class on a dblclick of option 2
 //This event listens for a double click
-//When moused over a class will be added to the p tag
+//When double clicked a class will be added to the p tag
 
 var texts = document.getElementsByTagName( 'li' );
 var text = texts [ 1 ];
