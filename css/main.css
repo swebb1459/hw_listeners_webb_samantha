@@ -74,7 +74,7 @@ a:hover {
 img {
     width: 25%;
     border: 1px solid #2f4f4f;
-    margin: 1px;
+    margin: 0;
 }
 
 article {

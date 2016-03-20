@@ -7,7 +7,7 @@ image.addEventListener( 'click', copyImage );
 
 function copyImage() {
 
-    var original = document.getElementsByTagName( 'figure' )[ 0 ];
+    var original = document.getElementsByTagName( 'img' )[ 0 ];
     var copy = original.cloneNode( true );
 
     document.getElementById( 'images' ).appendChild( copy );
