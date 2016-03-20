@@ -33,7 +33,14 @@ function changeText() {
 //This event listens for a mouseover
 //When moused over a class will be added to the p tag
 
-var texts = document.getElementsByTagName( 'p' );
-var text = texts [ 0 ];
+var texts = document.getElementsByTagName( 'li' );
+var text = texts [ 1 ];
 
 text.addEventListener( 'mouseover', addClass );
+
+function addClass() {
+    var newClass = document.getElementsByTagName( 'p' )[ 0 ];
+
+    newClass.className += 'text-style';
+
+}
