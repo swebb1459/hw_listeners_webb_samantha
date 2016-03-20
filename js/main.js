@@ -29,14 +29,14 @@ function changeText() {
     h2Text.style.color = '#ff00ff';
 }
 
-//The purpose of the code below is to insert a class on a mouseover of option 2
-//This event listens for a mouseover
+//The purpose of the code below is to insert a class on a dblclick of option 2
+//This event listens for a double click
 //When moused over a class will be added to the p tag
 
 var texts = document.getElementsByTagName( 'li' );
 var text = texts [ 1 ];
 
-text.addEventListener( 'mouseover', addClass );
+text.addEventListener( 'dblclick', addClass );
 
 function addClass() {
     var newClass = document.getElementsByTagName( 'p' )[ 0 ];
