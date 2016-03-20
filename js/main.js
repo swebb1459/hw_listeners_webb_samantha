@@ -20,3 +20,7 @@ function copyImage() {
 var option = document.getElementsByTagName( 'li' );
 
 option.addEventListener( 'dblclick', changeColor );
+
+function changeColor() {
+
+}
