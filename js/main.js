@@ -29,15 +29,11 @@ function changeText() {
     h2Text.style.color = '#ff00ff';
 }
 
-//The purpose of the code below is to insert text on a mouseover of option 2
+//The purpose of the code below is to insert a class on a mouseover of option 2
 //This event listens for a mouseover
-//When moused over text is inserted under the only paragraph
+//When moused over a class will be added to the p tag
 
-var texts = document.getElementsByTagName( 'li' );
-var text = texts [ 1 ];
+var texts = document.getElementsByTagName( 'p' );
+var text = texts [ 0 ];
 
-text.addEventListener( 'mouseover', addText );
-
-function addText() {
-    var
-}
+text.addEventListener( 'mouseover', addClass );
