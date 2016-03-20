@@ -17,6 +17,11 @@ function copyImage() {
 //This event listens for a dblclick
 //When clicked it changes the color of the h2
 
-var text = document.getElementsByTagName( 'h2' )[ 1 ];
+var text = document.getElementsByTagName( 'l1' );
 
 text.addEventListener( 'dblclick', changeText );
+
+function changeText() {
+
+
+}
