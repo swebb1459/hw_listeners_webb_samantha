@@ -13,7 +13,7 @@ function copyImage() {
     document.getElementById( 'images' ).appendChild( copy );
 }
 
-//The purpose is to change text of the text h2 when one of the nav options is double clicked
+//The purpose is to change text of the text h2 when one of the nav option 1 is double clicked
 //This event listens for a dblclick
 //When clicked it changes the color of the h2
 
@@ -28,3 +28,12 @@ function changeText() {
     h2Text.innerHTML = 'I changed when you doubled clicked';
     h2Text.style.color = '#ff00ff';
 }
+
+//The purpose of the code below is to insert text on a mouseover of option 2
+//This event listens for a mouseover
+//When moused over text is inserted under the only paragraph
+
+var texts = document.getElementsByTagName( 'li' );
+var text = texts [ 1 ];
+
+text.addEventListener( 'mouseover', addText );
