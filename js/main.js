@@ -1,4 +1,4 @@
-var submitButton = document.getElementById( 'button' );
+var contactForm = document.getElementById( 'contact-form' );
 
 function logSubmit( event ) {
     event.preventDefault();
@@ -14,4 +14,4 @@ function logSubmit( event ) {
     console.log( 'The message is: ' + message.value );
 }
 
-submitButton.addEventListener( 'click', logSubmit );
+contactForm.addEventListener( 'click', logSubmit );
