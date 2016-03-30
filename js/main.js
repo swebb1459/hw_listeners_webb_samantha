@@ -1,6 +1,8 @@
-var submitButton = document.getElementById( 'button' );
+var contactForm = document.getElementById( 'contact-form' );
 
-function logSubmit() {
+function logSubmit( event ) {
+    event.preventDefault();
+
     var firstName = document.getElementById( 'firstName' );
     var lastName = document.getElementById( 'lastName' );
     var email = document.getElementById( 'email' );
@@ -12,4 +14,4 @@ function logSubmit() {
     console.log( 'The message is: ' + message.value );
 }
 
-submitButton.addEventListener( 'click', logSubmit );
+contactForm.addEventListener( 'submit', logSubmit );
