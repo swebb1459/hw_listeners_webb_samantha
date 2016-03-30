@@ -14,4 +14,4 @@ function logSubmit( event ) {
     console.log( 'The message is: ' + message.value );
 }
 
-contactForm.addEventListener( 'click', logSubmit );
+contactForm.addEventListener( 'submit', logSubmit );
