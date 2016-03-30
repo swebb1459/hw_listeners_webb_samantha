@@ -1,6 +1,8 @@
 var submitButton = document.getElementById( 'button' );
 
-function logSubmit() {
+function logSubmit( event ) {
+    event.preventDefault();
+
     var firstName = document.getElementById( 'firstName' );
     var lastName = document.getElementById( 'lastName' );
     var email = document.getElementById( 'email' );
